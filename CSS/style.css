@@ -1,5 +1,5 @@
 /*add fonts from google fonts*/
- @import url(@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'););
+ @import url(@importurl) ('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap') ;
 
 
 h1 {
@@ -7,35 +7,32 @@ h1 {
 } 
  
 body {
-    background-color: 
+    background-color: rgb(246, 235, 220);
 }
-
+ 
 *{
     padding: 0;
     margin: 0;
     font-size: 100%;
     line-height: lem;}
 
-    /#default style for whole page#/
-    body {
-       color: #101010;
-       background-color: #ffffff;
-    }
+   
+    
 
     * content container to center centext * /
     •container {
         max-width: 1020px;
         margin: 0 auto 0auto;
 
-    }
-    <div class="container">
-    <h1> breaking barriers, shaping trends: celebrating the influence and creativity of women in design. </h1>
-    </div>
+    } 
+    
 
+    
     /*defult styling for heading*/
-    h1,h2,h3,h4,h5,h6 {   
-        font-family: "playfair display",georgia, 'times new ronan' ,times,serif;
-        line-height: 1.1
+    h1,h2,h3,h4 
+    {   
+     font-family: "playfair display",georgia, 'times new ronan' ,times,serif;
+        line-height: 1.1;
         font-weight: 700;
          }
    /*specific styles*/
@@ -127,29 +124,31 @@ figure.quote {
     footer {
         padding: 1.5rem 0 1.5rem 0;
         margin-top:2rem;
-        border-top:1px solid #101010;
+        border-top:1px solid #c30d0d;
         }
         main{
             margin-bottom: 2.5rem;
             }
 
             header{
-                border-bottom:2px solid #101010;
+                border-bottom:2px solid #000000;
                 padding:1.5rem 0;
                 }
-                header p.logo{
-                font-weight: 700;
-                margin-bottom:0;
-                font-size:1.75rem;
-                line-height: 1.1;
+               
                 
                 .colour-block{
                     padding:3rem 0 3rem 0;
-                    background-color: darkkhaki;
+                    background-color: rgb(255, 254, 225);
                     margin-bottom:2.5rem;
                     }
 
                     .highlight {
-                        background-color: #d4939f;
+                        background-color: #c8ebba;
                         padding:0 0.5rem;
                         }
+
+                        /*css grids*/
+
+             
+  
+    
